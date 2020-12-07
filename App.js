@@ -16,15 +16,13 @@ export default class App extends Component {
         <Button
             title="Increment result"
             onPress={() => {
-            this.setState({result : this.state.result + 1});
-            }}
+            this.setState({result : this.state.result + 1});}}
           />
           <Button
             title="Decrement result"
             style={styles.button}
             onPress={() => {
-            this.setState({result : this.state.result - 1});
-            }}
+            this.setState({result : this.state.result - 1});}}
           />
       </View>
     );
